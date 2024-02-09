@@ -389,28 +389,28 @@ pub struct Plugin {
 }
 
 #[cfg(feature = "x86_64")]
-const PLUGIN_DIR: &str = "x86_64-softmmu/panda/plugins";
+const PLUGIN_DIR: &str = "x86_64/panda/plugins";
 
 #[cfg(feature = "i386")]
-const PLUGIN_DIR: &str = "i386-softmmu/panda/plugins";
+const PLUGIN_DIR: &str = "i386/panda/plugins";
 
 #[cfg(feature = "arm")]
-const PLUGIN_DIR: &str = "arm-softmmu/panda/plugins";
+const PLUGIN_DIR: &str = "arm/panda/plugins";
 
 #[cfg(feature = "aarch64")]
-const PLUGIN_DIR: &str = "aarch64-softmmu/panda/plugins";
+const PLUGIN_DIR: &str = "aarch64/panda/plugins";
 
 #[cfg(feature = "mips")]
-const PLUGIN_DIR: &str = "mips-softmmu/panda/plugins";
+const PLUGIN_DIR: &str = "mips/panda/plugins";
 
 #[cfg(feature = "mipsel")]
-const PLUGIN_DIR: &str = "mipsel-softmmu/panda/plugins";
+const PLUGIN_DIR: &str = "mipsel/panda/plugins";
 
 #[cfg(feature = "mips64")]
-const PLUGIN_DIR: &str = "mips64-softmmu/panda/plugins";
+const PLUGIN_DIR: &str = "mips64/panda/plugins";
 
 #[cfg(feature = "ppc")]
-const PLUGIN_DIR: &str = "ppc-softmmu/panda/plugins";
+const PLUGIN_DIR: &str = "ppc/panda/plugins";
 
 impl Plugin {
     pub fn new(name: &str) -> Self {
